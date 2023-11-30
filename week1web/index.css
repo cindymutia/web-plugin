@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+    .navbar{
+        background-color: blue;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+    }
+.navbar a{
+    color: azure;
+    padding:  10px;
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+.jumbotron{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+.jumbotron img{
+    z-index: -3;
+    position: absolute;
+    width: 100%;
+}
+.jumbotron h2{
+    width: 700px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-left: 300px;
+    font-weight: bold;
+    position: relative;
+
+}
+.jumbotron p{
+    width: 300px;
+    text-align: end;
+    margin-left:350px ;
+}
+.intro{
+    display: flex;
+    box-shadow: 3px -3px 7px 0px black;
+    margin: 30px 30px 0px 30px;
+    border-radius: 10px;
+    justify-content: center;
+    
+}
+desc{
+    padding: 10px;
+}
+.desc img{
+    margin-left: 58vh;
+}
+.desc p{
+    text-align: center;
+    position: relative;
+}
+.footer{
+    margin: 30px  30px 0px 30px ;
+    background-color: blue;
+    color: blanchedalmond;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+}
+.card{
+    box-shadow: 10px 5px 5px 0px blue;
+    margin: 30px 30px 0px 30px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+
+
+
+    
